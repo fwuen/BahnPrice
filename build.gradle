@@ -28,7 +28,7 @@ configurations {
 }
 
 bootRepackage {
-    mainClass = "BahnPrice.restapi.api.controller.SpringStarter"
+    mainClass = "restapi.api.SpringStarter"
 }
 
 sourceCompatibility = 1.8
@@ -61,7 +61,7 @@ bootRun {
 }
 
 bootRepackage {
-    mainClass = "BahnPrice.restapi.api.controller.SpringStarter"
+    mainClass = "restapi.api.SpringStarter"
     executable = true
 }
 
